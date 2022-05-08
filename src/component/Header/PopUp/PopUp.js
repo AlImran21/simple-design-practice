@@ -7,11 +7,11 @@ const PopUp = () => {
 
     let popup = document.getElementById('popup');
     const handleSubmitButton = () => {
-        popup?.classList?.add('open-popup');
+        popup.classList.add('open-popup');
     }
 
     const handleOkButton = () => {
-        popup?.classList?.remove('open-popup');
+        popup.classList.remove('open-popup');
     }
 
 

@@ -6,15 +6,16 @@ import { Link } from 'react-router-dom';
 
 
 
+
 const Header = () => {
     return (
         <div className='header'>
             <nav>
                 <img src={Logo} alt="" />
                 <ul>
-                    <li><Link to='/home'>Home</Link></li>
+                    <li><Link to='/home'>Header</Link></li>
                     <li><Link to='/popUp'>PopUp</Link></li>
-                    <li><Link to='/women'>Women</Link></li>
+                    <li><Link to='/footer'>Footer</Link></li>
                     <li><Link to='/kids'>Kids</Link></li>
                     <li><Link to='/living'>Home & Living</Link></li>
                 </ul>
